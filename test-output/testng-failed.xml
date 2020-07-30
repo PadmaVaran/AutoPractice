@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test">
+    <classes>
+      <class name="com.scripts.AutoPractice.TESTAutoPracticeRegistration"/>
+      <class name="com.scripts.AutoPractice.TESTAutoPracticeSignIn"/>
+      <class name="com.scripts.AutoPractice.TESTAutoPracticeOrder"/>
+      <class name="com.scripts.AutoPractice.TESTAutoPracticeWishList"/>
+      <class name="com.scripts.AutoPractice.TESTAutoPracticeSearchProduct"/>
+      <class name="com.scripts.AutoPractice.TESTAutoPracticeIncorrectValues"/>
+      <class name="com.scripts.AutoPractice.TESTAutoPracticeMandatoryFields"/>
+      <class name="com.scripts.AutoPractice.TESTAutoPracticeInvalidEmail"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.scripts.AutoPractice.TESTAutoPracticeOrder">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="order"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.scripts.AutoPractice.TESTAutoPracticeOrder -->
+      <class name="com.scripts.AutoPractice.TESTAutoPracticeSearchProduct">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.scripts.AutoPractice.TESTAutoPracticeSearchProduct -->
+      <class name="com.scripts.AutoPractice.TESTAutoPracticeRegistration">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.scripts.AutoPractice.TESTAutoPracticeRegistration -->
+      <class name="com.scripts.AutoPractice.TESTAutoPracticeSignIn">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.scripts.AutoPractice.TESTAutoPracticeSignIn -->
+      <class name="com.scripts.AutoPractice.TESTAutoPracticeInvalidEmail">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.scripts.AutoPractice.TESTAutoPracticeInvalidEmail -->
+      <class name="com.scripts.AutoPractice.TESTAutoPracticeMandatoryFields">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.scripts.AutoPractice.TESTAutoPracticeMandatoryFields -->
+      <class name="com.scripts.AutoPractice.TESTAutoPracticeWishList">
+        <methods>
+          <include name="wish"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.scripts.AutoPractice.TESTAutoPracticeWishList -->
+      <class name="com.scripts.AutoPractice.TESTAutoPracticeIncorrectValues">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.scripts.AutoPractice.TESTAutoPracticeIncorrectValues -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

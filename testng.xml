@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.scripts.AutoPractice.TESTAutoPracticeRegistration"/>
+      <class name="com.scripts.AutoPractice.TESTAutoPracticeSignIn"/>
+      <class name="com.scripts.AutoPractice.TESTAutoPracticeOrder"/>
+      <class name="com.scripts.AutoPractice.TESTAutoPracticeWishList"/>
+      <class name="com.scripts.AutoPractice.TESTAutoPracticeSearchProduct"/>
+      <class name="com.scripts.AutoPractice.TESTAutoPracticeIncorrectValues"/>
+      <class name="com.scripts.AutoPractice.TESTAutoPracticeMandatoryFields"/>
+      <class name="com.scripts.AutoPractice.TESTAutoPracticeInvalidEmail"/>
+      
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
